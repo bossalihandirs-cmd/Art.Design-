@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat";
+  background: #faf4eb;
+  background: linear-gradient(
+    90deg,
+    rgba(250, 244, 235, 1) 100%,
+    rgba(235, 252, 252, 1) 100%
+  );
+}
+/* header */
+.header {
+  background-color: #4a4a4a;
+  color: white;
+  width: 100%;
+  line-height: 80px;
+}
+.header_box {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 100px;
+}
+.header_text {
+  display: flex;
+  gap: 50px;
+}
+
+.header-hover {
+  cursor: pointer;
+  transform: all 0.3;
+}
+
+.header-hover:hover {
+  color: #bfa67a;
+}
+
+.header-a {
+  text-decoration: none;
+  color: white;
+}
+/* section one */
+.section_one {
+  background-image: url(image-asset.webp);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  color: white;
+}
+
+.section_one-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.art {
+  font-size: 80px;
+}
+
+span {
+  color: #4a4a4a;
+}
+
+.section_one-text {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+input {
+  width: 400px;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  margin-top: 50px;
+  padding: 0px 15px;
+}
+
+.search_icon {
+  position: absolute;
+  right: 15px;
+  width: 20px;
+  top: 65px;
+  cursor: pointer;
+}
+/* section two */
+.section_two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px;
+}
+
+.section_two-text {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.section_two-grip {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  padding: 40px 0px;
+}
+
+.section_two-box {
+  width: 300px;
+  height: 370px;
+  text-align: center;
+}
+
+.section_two-box:hover {
+  transform: scale(1.05);
+  transition: all 0.3s;
+  box-shadow: black 0px 0px 10px;
+}
+
+.section_two-img {
+  width: 100%;
+  height: 300px;
+}
+/* section three */
+.section_three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section_three-grip {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  padding: 50px 0px;
+}
+
+.section_three-box {
+  width: 300px;
+  height: 675px;
+}
+
+.section_three-box:hover {
+  transform: scale(1.05);
+  transition: all 0.3s;
+  box-shadow: black 0px 0px 10px;
+}
+
+.section_three-img {
+  width: 100%;
+  height: 450px;
+}
+
+.section_three-all {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  padding-left: 10px;
+}
+
+.section_three-title {
+  font-size: 18px;
+}
+
+.section_three-text {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+button {
+  width: 100px;
+  height: 35px;
+  border: none;
+  outline: none;
+  background-color: dimgray;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.button{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+/* section four */
+.section_four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-top: 50px;
+  padding: 50px 0px;
+  gap: 50px;
+}
+
+.section_four-img {
+  width: 500px;
+  height: 500px;
+}
+
+.section_four-text {
+  width: 450px;
+  height: 500px;
+  padding-top: 75px;
+}
+
+.section_three-title {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.section_four-all {
+  text-align: center;
+}
+/* footer */
+.footer {
+  background-color: #4a4a4a;
+  color: white;
+  width: 100%;
+  height: 100px;
+}
+
+.footer_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+  gap: 15px;
+}
+
+.footer_text {
+  font-size: 12px;
+}
+
+.footer_logo {
+  width: 20px;
+  height: 20px;
+}
+
+.footer_logo-box {
+  display: flex;
+  gap: 5px;
+}
+
+.footer_logo-a {
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 10px;
+}
